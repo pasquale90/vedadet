@@ -1,28 +1,35 @@
 # Integration REPOSITORY
 
 ## Instructions
-$ git clone https://github.com/pasquale90/vedadet.git
-$ cd vedadet
-$ git checkout integration
-$ cd ..
-### rename ROOT folder (not the vedadet/vedadet subfolder) from *vedadet* to vedadet_* by running (outside the repo root dir) :
-$ mv vedadet vedadet_
+```shell
+git clone https://github.com/pasquale90/vedadet.git
+cd vedadet
+git checkout integration
+cd ..
+$ mv vedadet vedadet_ #rename ROOT folder (not the vedadet/vedadet subfolder) from *vedadet* to vedadet_* by running (outside the repo root dir)
+```
 
-### Install dependencies
-#### - if anaconda is used instead of miniconda3, then change the path:	$ source ~/miniconda3/etc/profile.d/conda.sh   -->   $ source ~/anaconda3/etc/profile.d/conda.sh
-$ cd vedadet_
-$ bash install_dependencies.sh 
-$ conda activate tinaface 
+### Install dependencies 
+- **if anaconda is used instead of miniconda3, then change the path:	$ source ~/miniconda3/etc/profile.d/conda.sh   -->   $ source ~/anaconda3/etc/profile.d/conda.sh**
+```shell
+cd vedadet_
+bash install_dependencies.sh 
+conda activate tinaface 
+```
 
-### Download pretrained model
-#### download https://drive.google.com/drive/folders/1OvuoU_ONUPEZacdIsJdFFHKcpKcnlN_M
-#### extract and place the *workdir* directory within ROOT (vedadet_) dir
+### Download pretrained model and some sample data
+download https://drive.google.com/drive/folders/1j9k8Ug7QQNwxpJ0H5Xy6ko4IcdDceLeO?usp=sharing
+extract and place the *workdir* and *data* directory within ROOT (vedadet_) dir
 
 ## Running instructions
-### Edit TEMPORARY_SERVER-outside.py : change *project_dir* variable to the absolute/relative path in of the 
-### test TEMPORARY_SERVER-outside.py script by running:
-$ python TEMPORARY_SERVER-outside.py
+ - **Edit TEMPORARY_SERVER-outside.py : change *project_dir* variable to the absolute/relative path of the vedadet_ (ROOT dir)**
+ - **test TEMPORARY_SERVER-outside.py script by running:**
+```
+python TEMPORARY_SERVER-outside.py
+```
+
 ### Results (Images and json files) should be stored within *VI_results* directory
+
 
 # OFFICIAL REPOSITORY 
 
