@@ -104,7 +104,7 @@ infer_engine = dict(
     use_sigmoid=use_sigmoid)
 
 # 4. weights
-weights = dict(filepath='your/weight/file/path')
+weights = dict(filepath='workdir/tinaface_r50_fpn_gn_dcn/epoch_240_weights.pth')
 
 # 5. show
 class_names = ('face', )

@@ -63,6 +63,10 @@ def main():
 
     results = test(engine, data_loader)
 
+
+    import numpy as np
+    print(np.array(results).shape)
+
     if args.out:
         print(f'\nwriting results to {args.out}')
         dump(results, args.out)
