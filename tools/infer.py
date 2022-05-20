@@ -3,7 +3,6 @@ import argparse
 import cv2
 import numpy as np
 import torch
-
 from vedacore.image import imread, imwrite
 from vedacore.misc import Config, color_val, load_weights
 from vedacore.parallel import collate, scatter
@@ -86,8 +85,11 @@ def main():
         data['img_metas'] = data['img_metas'][0].data
         data['img'] = data['img'][0].data
     result = engine.infer(data['img'], data['img_metas'])[0]
-    plot_result(result, imgname, class_names)
 
+
+    
+    #print(f'count = {len(result[0])}')
+    plot_result(result, imgname, class_names)
 
 if __name__ == '__main__':
     main()
