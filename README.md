@@ -2,6 +2,9 @@
 
 ## Instructions
 $ git clone https://github.com/pasquale90/vedadet.git
+$ cd vedadet
+$ git checkout integration
+$ cd ..
 ### rename ROOT folder (not the vedadet/vedadet subfolder) from *vedadet* to vedadet_* by running (outside the repo root dir) :
 $ mv vedadet vedadet_
 
