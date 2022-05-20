@@ -14,6 +14,10 @@ $ cd vedadet_
 $ bash install_dependencies.sh 
 $ conda activate tinaface 
 
+### Download pretrained model
+#### download https://drive.google.com/drive/folders/1OvuoU_ONUPEZacdIsJdFFHKcpKcnlN_M
+#### extract and place the *workdir* directory within ROOT (vedadet_) dir
+
 ## Running instructions
 ### Edit TEMPORARY_SERVER-outside.py : change *project_dir* variable to the absolute/relative path in of the 
 ### test TEMPORARY_SERVER-outside.py script by running:
