@@ -9,6 +9,13 @@ $ source ~/miniconda3/etc/profile.d/conda.sh   -->   $ source ~/anaconda3/etc/pr
 $ conda activate tinaface 
 
 
+## Running instructions
+### rename ROOT folder from *vedadet* to vedadet_*
+### Edit TEMPORARY_SERVER-outside.py : change *project_dir* variable to the absolute/relative path in of the 
+### test TEMPORARY_SERVER-outside.py script by running:
+$ python TEMPORARY_SERVER-outside.py
+### Results (Images and json files) should be stored within *VI_results* directory
+
 # OFFICIAL REPOSITORY 
 
 ## Introduction
