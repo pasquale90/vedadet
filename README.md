@@ -1,16 +1,17 @@
 # Integration REPOSITORY
 
-## Install dependencies
-$ bash install_dependencies.sh 
- - if anaconda is used instead of miniconda3, then change the path:
-$ source ~/miniconda3/etc/profile.d/conda.sh   -->   $ source ~/anaconda3/etc/profile.d/conda.sh
+## Instructions
+$ git clone https://github.com/pasquale90/vedadet.git
+### rename ROOT folder (not the vedadet/vedadet subfolder) from *vedadet* to vedadet_* by running (outside the repo root dir) :
+$ mv vedadet vedadet_
 
- - use the conda env create by using the following command:
+### Install dependencies
+#### - if anaconda is used instead of miniconda3, then change the path:	$ source ~/miniconda3/etc/profile.d/conda.sh   -->   $ source ~/anaconda3/etc/profile.d/conda.sh
+$ cd vedadet_
+$ bash install_dependencies.sh 
 $ conda activate tinaface 
 
-
 ## Running instructions
-### rename ROOT folder from *vedadet* to vedadet_*
 ### Edit TEMPORARY_SERVER-outside.py : change *project_dir* variable to the absolute/relative path in of the 
 ### test TEMPORARY_SERVER-outside.py script by running:
 $ python TEMPORARY_SERVER-outside.py
