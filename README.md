@@ -1,3 +1,16 @@
+# Integration REPOSITORY
+
+## Install dependencies
+$ bash install_dependencies.sh 
+ - if anaconda is used instead of miniconda3, then change the path:
+$ source ~/miniconda3/etc/profile.d/conda.sh  to $ source ~/anaconda3/etc/profile.d/conda.sh
+
+ - use the conda env create by using the following command:
+$ conda activate tinaface 
+
+
+# OFFICIAL REPOSITORY 
+
 ## Introduction
 vedadet is a single stage object detector toolbox based on PyTorch.
 
