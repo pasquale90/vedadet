@@ -1,6 +1,6 @@
 #!bin/bash
 
-env_name=tinaface
+env_name=tinaface7
 
 conda create -n ${env_name} python=3.7 -y
 source ~/miniconda3/etc/profile.d/conda.sh
